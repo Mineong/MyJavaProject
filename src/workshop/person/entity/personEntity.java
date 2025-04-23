@@ -13,10 +13,13 @@ public class PersonEntity {
 
 	public PersonEntity(String name, String ssn, String address, String phone) {
 		super(); // 기본 생성자 부름 -> 자동 생성
-		this.name = name;
+//		this.name = name;		
+//		this.address = address;
+//		this.phone = phone;
 		setSsn(ssn);
-		this.address = address;
-		this.phone = phone;
+		setName(name);
+		setAddress(address);
+		setPhone(phone);
 	}
 
 	public String getName() {

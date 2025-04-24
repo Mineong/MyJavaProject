@@ -1,8 +1,8 @@
-package lab.student.control;
+package lab.strudent.control;
 
 import lab.student.entity.Student;
 
-public class Main {
+public class StudentTest {
     public static void main(String[] args) {
         Student s1 = new Student("20250101", "±è¹Î¼ö", "ÄÄÇ»ÅÍ°øÇĞ", 3);
         s1.printInfo();

@@ -18,5 +18,4 @@ public class ManageBook {
 		Novel novel = new Novel();
 		Publication pub2 = new Novel();
 	}
-
 }
